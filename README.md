@@ -46,10 +46,4 @@ jupyter notebook
 spark-submit scripts/ipl_analysis.py
 ![Top Batsmen](screenshots/top_batsmen.png)
 
----
-
-## 🧑‍💻 Author
-
-**Richanshu Yadav**  
-[GitHub Profile](https://github.com/richanshu14)
 
