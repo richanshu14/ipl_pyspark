@@ -61,18 +61,6 @@ Open `ipl_analysis.ipynb` in the browser.
 spark-submit scripts/ipl_analysis.py
 ```
 
-### 5. View Output
-
-Check the `output/` folder for generated charts:
-
-- `top_batsmen.png`
-- `top_bowlers.png`
-- `matches_per_season.png`
-
-## 📷 Sample Visual
-
-![Top Batsmen]
-
 ## 📌 Use Cases
 
 - Sports analytics portfolio project
