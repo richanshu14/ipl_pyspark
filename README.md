@@ -1,49 +1,87 @@
 # 🏏 IPL Data Analysis using PySpark
 
-This project showcases data analysis on **IPL (Indian Premier League)** matches using **Apache Spark with PySpark**. It leverages powerful distributed computing to explore large cricket datasets efficiently.
-
----
-
-## 📌 Project Highlights
-
-- 📂 Loaded and transformed IPL match and delivery datasets using PySpark  
-- 🧪 Performed exploratory data analysis using Spark DataFrame operations  
-- 📊 Extracted player stats, top scorers, win percentages, toss decisions, etc.  
-- 📝 Cleaned, filtered, and joined datasets efficiently using PySpark SQL  
-
----
+This project performs exploratory data analysis on IPL (Indian Premier League) datasets using **PySpark**, focusing on key player stats, team performance, and season trends. The analysis includes interactive visualizations and is designed for big data scalability.
 
 ## 📁 Project Structure
 
+```
+ipl_pyspark/
+├── data/                         # Raw IPL CSV files
+├── scripts/
+│   └── ipl_analysis.py           # Python script for full PySpark analysis
+├── ipl_analysis.ipynb           # Jupyter Notebook version of the analysis
+├── output/                       # Plots and visual outputs
+│   ├── top_batsmen.png
+│   ├── top_bowlers.png
+│   └── matches_per_season.png
+└── README.md                     # Project documentation
+```
 
----
+## 📊 Key Analysis Highlights
 
-## 🔍 Key Analyses Performed
+- Top Batsmen and Bowlers of all seasons
+- Team-wise win distribution and toss analysis
+- Match count per season
+- Venue performance and win patterns
+- Visualized insights using `matplotlib` and `PySpark`
 
-- 🏆 Most successful teams by win percentage  
-- 🧤 Top wicket-takers and batsmen in the league  
-- 🪙 Toss decision trends and match outcomes  
-- 🏟️ Venue-wise team performance  
-- 🎯 Highest run chases and total scores  
+## ⚙️ Tech Stack
 
----
+- **Language**: Python 3
+- **Framework**: Apache Spark (PySpark)
+- **Libraries**: Pandas, Matplotlib, PySpark
+- **Tools**: Jupyter Notebook, VS Code, CLI
 
-## 🛠️ Technologies Used
+## 🚀 How to Use
 
-- 🔥 Apache Spark & PySpark  
-- 🐍 Python 3.x  
-- 📊 Pandas, Matplotlib (for optional plots)  
-- 📓 Jupyter Notebook (for interactive development)  
+### 1. Clone the Repository
 
----
+```bash
+git clone https://github.com/richanshu14/ipl_pyspark.git
+cd ipl_pyspark
+```
 
-## 🧠 How to Run
+### 2. Install Required Libraries
 
-1. Install required libraries:
 ```bash
 pip install pyspark pandas matplotlib
+```
+
+### 3. Run via Jupyter Notebook
+
+```bash
 jupyter notebook
+```
+
+Open `ipl_analysis.ipynb` in the browser.
+
+### 4. Or Run via Spark Submit
+
+```bash
 spark-submit scripts/ipl_analysis.py
-![Top Batsmen](screenshots/top_batsmen.png)
+```
+
+### 5. View Output
+
+Check the `output/` folder for generated charts:
+
+- `top_batsmen.png`
+- `top_bowlers.png`
+- `matches_per_season.png`
+
+## 📷 Sample Visual
+
+![Top Batsmen]
+
+## 📌 Use Cases
+
+- Sports analytics portfolio project
+- Learning PySpark and big data workflows
+- Resume project for data engineering or analytics roles
+
+## 🧑‍💻 Author
+
+**Richanshu Yadav**  
+[GitHub Profile](https://github.com/richanshu14)
 
 
