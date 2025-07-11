@@ -25,6 +25,20 @@ ipl_pyspark/
 - Venue performance and win patterns
 - Visualized insights using `matplotlib` and `PySpark`
 
+## 📊 IPL Dashboard Previews
+
+<p align="center">
+  <img src="images/dashboard1.png" width="45%" alt="Dashboard 1" />
+  <img src="images/dashboard2.png" width="45%" alt="Dashboard 2" />
+  <br><br>
+  <img src="images/dashboard3.png" width="45%" alt="Dashboard 3" />
+  <img src="images/dashboard4.png" width="45%" alt="Dashboard 4" />
+  <br><br>
+  <img src="images/dashboard5.png" width="45%" alt="Dashboard 5" />
+  <img src="images/dashboard6.png" width="45%" alt="Dashboard 6" />
+</p>
+
+
 ## ⚙️ Tech Stack
 
 - **Language**: Python 3
